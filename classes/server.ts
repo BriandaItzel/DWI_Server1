@@ -4,7 +4,7 @@ import socketIO from 'socket.io';
 import http from 'http';
 import * as socket from '../sockets/sockets'
 
-export  default class Server
+export  default class Server 
 {
     private static _instance: Server;
 
